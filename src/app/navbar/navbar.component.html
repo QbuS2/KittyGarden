@@ -1,19 +1,40 @@
-<a class="navbar-brand" href="#">
-  <span class="logo logo-left">Kitty</span>
-  <span class="logo logo-right">Garden</span>
-</a>
-<div class="mdc-top-app-bar__row">
-  <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
-    <button class="material-icons mdc-top-app-bar__navigation-icon mdc-icon-button">menu</button>
-    <span class="mdc-top-app-bar__title">Title</span>
-  </section>
-</div>
-<!-- <button mat-button [matMenuTriggerFor] = "menu">Rezerwacja</button>
-<mat-menu #menu = "matMenu">
-   <button mat-menu-item>Stała</button>   
-   <button mat-menu-item [matMenuTriggerFor] = "other">Tymczasowa</button>
-</mat-menu>
-<mat-menu #other = "matMenu">
-   <button mat-menu-item>File 1</button>
-   <button mat-menu-item>File 2</button>
-</mat-menu> -->
+<div class="mdc-tab-bar" role="tablist">
+    <div class="mdc-tab-scroller">
+      <div class="mdc-tab-scroller__scroll-area">
+        <div class="mdc-tab-scroller__scroll-content">
+          <button class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0">
+            <span class="mdc-tab__content">
+              <span class="mdc-tab__icon material-icons" aria-hidden="true">favorite</span>
+              <span class="mdc-tab__text-label">Favorites</span>
+            </span>
+            <span class="mdc-tab-indicator mdc-tab-indicator--active">
+              <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+            </span>
+            <span class="mdc-tab__ripple"></span>
+          </button>
+
+          <button class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="1">
+            <span class="mdc-tab__content">
+              <span class="mdc-tab__icon material-icons" aria-hidden="true">favorite</span>
+              <span class="mdc-tab__text-label">Favorites</span>
+            </span>
+            <span class="mdc-tab-indicator mdc-tab-indicator--active">
+              <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+            </span>
+            <span class="mdc-tab__ripple"></span>
+          </button>
+
+          <button class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="2">
+            <span class="mdc-tab__content">
+              <span class="mdc-tab__icon material-icons" aria-hidden="true">favorite</span>
+              <span class="mdc-tab__text-label">Favorites</span>
+            </span>
+            <span class="mdc-tab-indicator mdc-tab-indicator--active">
+              <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+            </span>
+            <span class="mdc-tab__ripple"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
